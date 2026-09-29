@@ -29,14 +29,22 @@ public:
 		return matchesWon;
 	}
 
-	void recordResult()
+	void recordResult(bool won)
 	{
-
+		numOfMatches++;
+		if (won)
+		{
+			matchesWon++;
+		}
 	}
 
 	void displayHighScore()
 	{
-
+		std::cout << "Player Stats: " << name << '/n';
+		
+		std::cout << "Games Played: " << numOfMatches << '/n';
+		
+		std::cout << "Wins: " << matchesWon << '/n';
 	}
 
 	
