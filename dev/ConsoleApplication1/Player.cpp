@@ -8,7 +8,7 @@ Player::Player(const std::string& playerName)
 
 std::string Player::getName() const
 {
-	return std::string();
+	return  name;
 }
 
 int Player::getMatchesPlayed() const
@@ -47,6 +47,7 @@ void Player::displayHighScore()
 
 
 
-/*I know that in the future I would like to give the player a choice as to somesort of symbol to represent themselves but for now we will only take the name and list a few game stats like number of games played and  won.*/
+/*I know that in the future I would like to give the player a choice as to somesort of symbol to 
+represent themselves but for now we will only take the name and list a few game stats like number of games played and  won.*/
 
 

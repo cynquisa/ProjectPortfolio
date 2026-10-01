@@ -2,14 +2,27 @@
 //
 
 #include "Player.h"
+#include "GameMenu.h"
+#include "GameMenu.cpp"
 
 #include <iostream>
 
 int main()
 {
-  std::string 
-    std::cout << "What is you name: " << player.getName();
+
+
 }
+
+/*testing menu in the main*/
+
+/*
+
+
+
+*/
+
+
+
 
 
 
