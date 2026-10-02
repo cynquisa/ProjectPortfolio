@@ -2,8 +2,13 @@
 #include <iostream>
 #include <string>
 
-Player::Player(const std::string& playerName)
+Player::Player(const std::string& playerName, int symbol)
 {
+}
+
+Player::~Player()
+{
+
 }
 
 std::string Player::getName() const
@@ -20,6 +25,12 @@ int Player::getMatchesWon() const
 {
 	return matchesWon;
 }
+
+int Player::getSymbol() const
+{
+	return symbol;
+}
+
 
 void Player::recordResult(bool won)
 {

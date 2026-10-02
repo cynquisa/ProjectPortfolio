@@ -8,9 +8,12 @@ private:
 	std::string name;
 	int numOfMatches;
 	int matchesWon;
+	int symbol;
 public:
 
-	Player(const std::string& playerName);
+
+	Player(const std::string& playerName, int symbol);
+	~Player();
 
 	std::string getName() const;
 
@@ -18,6 +21,7 @@ public:
 
 	int getMatchesWon() const;
 
+	int getSymbol() const;
 
 	void recordResult(bool won);
 	void displayHighScore();
