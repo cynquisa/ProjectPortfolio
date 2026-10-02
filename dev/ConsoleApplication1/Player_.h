@@ -21,7 +21,7 @@ public:
 
 	int getMatchesWon() const;
 
-	std::string getCharacterSymbo() const;
+	std::string getCharacterSymbol() const;
 
 	void recordResult(bool won);
 	void displayHighScore();

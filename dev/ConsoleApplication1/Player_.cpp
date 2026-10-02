@@ -5,7 +5,9 @@
 
 
 Player::Player(std::string name, int numOfMatches, int matchesWon, std::string CharacterSymbol)
+	: name(name), numOfMatches(numOfMatches), matchesWon(matchesWon), CharacterSymbol(CharacterSymbol)
 {
+
 }
 
 Player::~Player()
@@ -28,7 +30,7 @@ int Player::getMatchesWon() const
 	return matchesWon;
 }
 
-std::string Player::getCharacterSymbo() const
+std::string Player::getCharacterSymbol() const
 {
 	return CharacterSymbol;
 }
