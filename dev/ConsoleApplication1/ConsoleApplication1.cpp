@@ -4,23 +4,20 @@
 #include "Player.h"
 #include "GameMenu.h"
 #include "GameMenu.cpp"
-
+#include <string>
 #include <iostream>
 
 int main()
 {
+	std::cout << "=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=* \n";
+	std::cout << "=*=                                                       =*= \n";
+	std::cout << "=*=              Welcome To Safe Escape                   =*= \n";
+	std::cout << "=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=* \n";
 
+};
 
-}
-
-/*testing menu in the main*/
-
-/*
-
-
-
-*/
-
+std::string symbol1 = "¬_¬";
+std::string symbol2 = "¬_¬";
 
 
 

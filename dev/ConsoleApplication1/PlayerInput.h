@@ -7,7 +7,7 @@ class PlayerInput
 {
 public:
 	static int isValidInt(const std::string& message, int min, int max)
-	{	
+	{
 		int userInput;
 		while (true)
 		{

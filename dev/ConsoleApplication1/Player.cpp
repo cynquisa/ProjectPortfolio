@@ -1,12 +1,15 @@
-#include "Player_.h"
+#include "Player.h"
 #include <iostream>
 #include <string>
+#include <vector>
+
 
 
 
 Player::Player(std::string name, int numOfMatches, int matchesWon, std::string CharacterSymbol)
 	: name(name), numOfMatches(numOfMatches), matchesWon(matchesWon), CharacterSymbol(CharacterSymbol)
 {
+	std::vector<std::string> characterChoice;
 
 }
 
@@ -47,7 +50,9 @@ void Player::recordResult(bool won)
 
 void Player::displayHighScore()
 {
-	std::cout << "Player Stats: " << name << '\n';
+	std::cout << "\n========================================================== = \n";
+	std::cout << "Player Stats: " << name << "Avatar: " << CharacterSymbol << '\n';
+	std::cout << "\n========================================================== = \n";
 
 	std::cout << "Games Played: " << numOfMatches << '\n';
 

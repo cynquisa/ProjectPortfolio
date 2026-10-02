@@ -6,9 +6,10 @@ void menuChoice(MenuChoice choice)
 {
 	switch (choice)
 	{
+	case MenuChoice::Player:
 		std::cout << "Choose your character ? " << std::endl;
 		break;
-		
+
 	case MenuChoice::Level:
 		std::cout << "Select the level you wish to play? " << std::endl;
 		break;
@@ -35,7 +36,7 @@ void menuChoice(MenuChoice choice)
 	MenuChoice choice = static_cast<MenuChoice>(input);
 	menuChoice;
 	return 0;
-	this how I couud test the menu in the main.
+	this how I couud test the menu in the main.*/
 
 
 
