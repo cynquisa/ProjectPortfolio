@@ -6,7 +6,6 @@ void menuChoice(MenuChoice choice)
 {
 	switch (choice)
 	{
-	case MenuChoice::Player:
 		std::cout << "Choose your character ? " << std::endl;
 		break;
 		

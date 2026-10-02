@@ -1,8 +1,10 @@
-#include "Player.h"
+#include "Player_.h"
 #include <iostream>
 #include <string>
 
-Player::Player(const std::string& playerName, int symbol)
+
+
+Player::Player(std::string name, int numOfMatches, int matchesWon, std::string symbol)
 {
 }
 
@@ -26,7 +28,7 @@ int Player::getMatchesWon() const
 	return matchesWon;
 }
 
-int Player::getSymbol() const
+std::string Player::getSymbol() const
 {
 	return symbol;
 }
