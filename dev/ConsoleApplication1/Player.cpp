@@ -24,6 +24,7 @@ Player::Player(std::string name, int numOfMatches, int matchesWon, std::string C
 	int choice = PlayerInput::isValidInt("Select choice (1-2): ", 1, static_cast<int>(characterChoice.size()));
 	this->CharacterSymbol = characterChoice[choice - 1];
 	std::cout << "You have selected: " << this->CharacterSymbol << "\n";
+
 }
 
 Player::~Player()
