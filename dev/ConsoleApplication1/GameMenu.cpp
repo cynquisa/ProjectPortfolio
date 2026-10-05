@@ -12,12 +12,15 @@ void menuChoice(MenuChoice choice)
 
 	case MenuChoice::Level:
 		std::cout << "Select the level you wish to play? " << std::endl;
+		std::cout << "1. Easy Guess a number between 1 - 100 out of 15 chances.\n";
+		std::cout << "2. Hard Guess a number between 1 - 150 out of 12 chances.\n";
 		break;
 
-	case MenuChoice::HighScoreTable:
+/*	case MenuChoice::HighScoreTable:
 		std::cout << "Loading the High Scores..." << std::endl;
+	
 		break;
-
+*/
 	case MenuChoice::End:
 		std::cout << "GAMEOVER " << std::endl;
 

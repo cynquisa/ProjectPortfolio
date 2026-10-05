@@ -4,7 +4,7 @@ enum class MenuChoice
 {
 	Player = 1,
 	Level,
-	HighScoreTable,
+	HighScores,
 	End
 };
 void menuChoice(MenuChoice choice);
