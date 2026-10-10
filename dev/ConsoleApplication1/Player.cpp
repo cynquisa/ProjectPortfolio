@@ -13,6 +13,8 @@ Player::Player(std::string name, int numOfMatches, int matchesWon, std::string C
 	std::vector<std::string> characterChoice;
 	characterChoice.push_back("¬_¬");
 	characterChoice.push_back("^_^");
+	characterChoice.push_back("(*_*)");
+	characterChoice.push_back("<>_<>");
 
 
 	std::cout << "\nChoose your character: \n";
